@@ -1,0 +1,148 @@
+.accordion-line {
+  position: relative;
+
+  display: block;
+
+  padding: 15px 60px 15px 30px;
+
+  text-decoration: none;
+
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.accordion-line--simple {
+  padding: 20px 60px 20px 30px;
+
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.accordion-line:last-child {
+  border-bottom: none;
+}
+
+.accordion-line__title {
+  transition: color 0.15s ease;
+
+  color: #1e1e1e;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.accordion-line:hover .accordion-line__title {
+  color: #00aee6;
+}
+
+.accordion-line__text {
+  margin-top: 3px;
+
+  color: #8a8a8f;
+
+  font-size: 0.9375rem;
+  line-height: 15px;
+}
+
+.accordion-line__text > * {
+  display: inline-block;
+
+  margin-right: 20px;
+
+  vertical-align: top;
+}
+
+.accordion-line__icon {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+
+  margin-top: -8px;
+
+  transform: rotate(-90deg);
+
+  color: #8a8a8f;
+}
+
+.accordion-line__icon svg {
+  width: 16px;
+  height: auto;
+  stroke: #8a8a8f;
+  fill: #8a8a8f;
+}
+
+.accordion-line__inner {
+  margin-bottom: 20px;
+  padding: 0;
+
+  border: none;
+}
+
+.accordion-line__inner .accordion-line__icon {
+  display: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .accordion-line {
+    padding-top: 50px;
+  }
+
+  .accordion-line--simple {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .accordion-line__title {
+    margin-bottom: 5px;
+
+    font-size: 2.1875rem;
+    line-height: 35px;
+  }
+
+  .accordion-line__text {
+    font-size: 1.5625rem;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accordion-line {
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-left: 15px;
+  }
+
+  .accordion-line__title {
+    margin-bottom: 0;
+
+    font-size: 0.9375rem;
+    line-height: 15px;
+  }
+
+  .accordion-line__text {
+    margin-top: 10px;
+
+    font-size: 0.9375rem;
+    line-height: 15px;
+  }
+
+  .accordion-line__text div {
+    margin-bottom: 5px;
+  }
+
+  .accordion-line__text div:last-child {
+    margin-bottom: 0;
+  }
+
+  .accordion-line__icon {
+    top: 15px;
+    right: 15px;
+
+    margin-top: 0;
+  }
+
+  .accordion-line--simple {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

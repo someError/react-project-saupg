@@ -1,0 +1,40 @@
+.label {
+  display: block;
+
+  margin-bottom: 5px;
+
+  letter-spacing: 0.05769231em;
+  text-transform: uppercase;
+
+  color: #1e1e1e;
+
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+@media screen and (max-width: 1279px) {
+  .label {
+    color: #8a8a8f;
+
+    font-size: 1.25rem;
+    line-height: 25px;
+  }
+
+  .label-debts {
+    margin-bottom: 15px;
+
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .label {
+    font-size: 0.75rem;
+    line-height: 12px;
+  }
+
+  .label-debts {
+    margin-bottom: 5px;
+  }
+}

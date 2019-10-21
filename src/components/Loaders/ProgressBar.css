@@ -1,0 +1,15 @@
+.progress-container {
+  width: 100%;
+
+  border-radius: 2px;
+  background: #d8d8d8;
+}
+
+.progress-bar {
+  height: 4px;
+
+  transition: width 0.15s ease;
+
+  border-radius: inherit;
+  background: #00aee6;
+}

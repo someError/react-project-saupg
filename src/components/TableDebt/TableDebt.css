@@ -1,0 +1,59 @@
+.table-debt {
+  padding-right: 30px;
+  padding-bottom: 26px;
+  padding-left: 30px;
+
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.table-debt table {
+  width: 740px;
+
+  border-collapse: collapse;
+
+  font-weight: normal;
+}
+
+/* TODO: на кой хер селектор .table-debt b */
+.table-debt b,
+.table-debt th {
+  font-weight: 500;
+}
+
+.table-debt td,
+.table-debt th {
+  padding: 13px 0 0;
+
+  text-align: left;
+
+  font-size: 0.9375rem;
+}
+
+.table-debt th {
+  padding-bottom: 10px;
+
+  color: #666;
+  border-bottom: 1px solid #e1e1e1;
+
+  font-weight: normal;
+}
+
+.table-debt td {
+  color: #1e1e1e;
+}
+
+.table-debt td:nth-child(1) {
+  width: 255px;
+}
+
+.table-debt td:nth-child(2) {
+  width: 185px;
+}
+
+.table-debt td:nth-child(3) {
+  width: 195px;
+}
+
+.table-debt td:nth-child(4) {
+  width: 105px;
+}

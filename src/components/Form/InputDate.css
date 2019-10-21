@@ -1,0 +1,61 @@
+.input-date {
+  padding-right: 45px;
+
+  background-image: url('../../images/icon-calendar.svg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) 12px;
+}
+
+.input-date--full-width {
+  width: 100%;
+}
+
+.input-date-wrapper {
+  position: relative;
+
+  display: inline-block;
+
+  width: 100%;
+
+  vertical-align: top;
+}
+
+.input-date-icon {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: 15px;
+
+  margin-top: -10px;
+
+  color: #979797;
+}
+
+.input-date-icon svg {
+  width: 17px;
+  height: auto;
+
+  pointer-events: none;
+  fill: #979797;
+}
+
+.DayPickerInput {
+  display: block;
+}
+
+.DayPickerInput-OverlayWrapper {
+  z-index: 10;
+}
+
+@media screen and (max-width: 767px) {
+  .input-date-wrapper {
+    margin: 0 -15px;
+    padding: 0 15px;
+
+    border-bottom: solid 1px #e1e1e1;
+  }
+
+  .input-date {
+    background: none;
+  }
+}

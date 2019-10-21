@@ -1,0 +1,33 @@
+/* .comment { */
+
+/* padding: 30px; */
+
+/* } */
+.comment {
+  max-width: 620px;
+  margin-bottom: 20px;
+
+  font-size: 0.9375rem;
+}
+
+.comment__title {
+  margin-bottom: 10px;
+
+  letter-spacing: 0.028em;
+  text-transform: uppercase;
+
+  color: #10496a;
+
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.comment__text {
+  color: #666;
+
+  line-height: 20px;
+}
+
+.comment__text + .comment__text {
+  margin-top: 5px;
+}

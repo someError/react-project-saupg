@@ -1,0 +1,36 @@
+.checkbox input {
+  display: none;
+}
+
+.checkbox label {
+  position: relative;
+
+  height: 20px;
+  padding-left: 25px;
+
+  cursor: pointer;
+  user-select: none;
+
+  font-size: 0.9375rem;
+  line-height: 20px;
+}
+
+.checkbox label::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+
+  content: '';
+  cursor: pointer;
+
+  border: solid 1px #979797;
+  border-radius: 3px;
+}
+
+.checkbox input:checked + label::before {
+  background: #979797;
+}

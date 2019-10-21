@@ -1,0 +1,550 @@
+/* главный кнотейнер */
+.container {
+  position: relative;
+
+  width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container-fluid {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1280px;
+}
+
+/* -----end----- */
+
+/* две колонки в контенте */
+.l-two-cols {
+  margin: 20px -15px 0;
+}
+
+.l-two-cols--btn {
+  margin-top: 0;
+}
+
+.l-two-cols-col {
+  display: inline-block;
+
+  box-sizing: border-box;
+  width: 49.9%;
+  margin-bottom: 20px;
+  padding: 0 15px;
+
+  vertical-align: top;
+}
+
+.l-two-cols--btn .l-two-cols-col {
+  margin: 0;
+}
+
+.l-two-cols--modified {
+  margin-top: 0;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.l-two-cols-valign-top .l-two-cols-col {
+  vertical-align: top;
+}
+
+.l-two-cols--modified .l-two-cols-col {
+  margin-bottom: 0;
+  padding: 0 10px;
+}
+
+.l-text-list-item {
+  margin-bottom: 20px;
+}
+
+.l-text-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* -----end----- */
+
+/* три колонки в контенте */
+.l-three-cols {
+  margin: 0 -15px 0 -15px;
+}
+
+.l-three-cols-col {
+  display: inline-block;
+
+  box-sizing: border-box;
+  width: 33.3%;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+
+/* -----end----- */
+
+/* главный layout с двумя колонками */
+.l-main {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.l-main::after {
+  display: table;
+  clear: both;
+
+  content: "";
+}
+
+.l-main-left {
+  width: 410px;
+  padding: 20px 20px 30px;
+}
+
+.l-main-left--request {
+  padding: 0;
+}
+
+.l-main-left--request .request-card:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.l-main-right {
+  position: relative;
+
+  width: 800px;
+  min-height: 100%;
+  margin-left: auto;
+}
+
+.l-main-right--stretch {
+  width: 100%;
+}
+
+.l-main-right--stretch .white-block {
+  position: relative;
+  z-index: 3;
+}
+
+.l-main--no-aside .l-main-right {
+  margin: auto;
+}
+
+.l-main-column {
+  box-sizing: border-box;
+  min-height: 100%;
+
+  background: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.l-main-right--no-bg .l-main-column {
+  background: #f3f3f3;
+  box-shadow: none;
+}
+
+.l-main-column--no-bg {
+  background: transparent;
+  box-shadow: none;
+}
+
+.l-main-column--modified {
+  background: none;
+  box-shadow: none;
+}
+
+.l-main-left--modified {
+  padding: 0;
+}
+
+.l-main--nav-holder {
+  min-height: 28px;
+}
+
+.l-main--nav-holder + .l-main {
+  padding-top: 0;
+}
+
+.l-main--nav-holder-main {
+  padding-top: 50px;
+}
+
+/* -----end----- */
+
+/* layout блока с фильтрами */
+
+.white-block {
+  position: relative;
+
+  background: #fff;
+}
+
+.white-block__back {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+
+  padding: 5px;
+}
+
+.l-main-right--stretch .c-filter {
+  position: relative;
+  z-index: 3;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px 0;
+
+  background: #fff;
+}
+
+.l-main-right--stretch .l-filter-line__col {
+  width: 290px;
+}
+
+.l-filter {
+  height: 100%;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.l-filter-line {
+  margin-bottom: 20px;
+}
+
+.l-filter-line--two-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-main-left .l-filter-line--two-col {
+  display: block;
+}
+
+.l-main-left .l-filter-line__col + .l-filter-line__col {
+  margin-top: 20px;
+}
+
+.l-filter-text-result {
+  margin-top: 10px;
+}
+
+.l-filter .btn {
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+
+/* -----end----- */
+
+/* layout сортера */
+
+.l-sorter {
+  margin-top: -27px;
+  margin-bottom: 5px;
+
+  text-align: right;
+}
+
+/* -----end----- */
+
+/* layout блока с инпутами по услугам */
+
+.l-two-cols-group-param .l-two-cols-col {
+  margin-bottom: 30px;
+}
+
+.l-two-cols-group-param .l-two-cols-col:last-child {
+  margin-bottom: 0;
+}
+
+/* -----end----- */
+
+/* layout фильтра задолженности */
+
+.l-debts-filters {
+  display: flex;
+
+  margin-left: -20px;
+  padding: 15px 0;
+}
+
+.l-debts-filters > * {
+  flex-grow: 1;
+
+  margin-left: 20px;
+}
+
+.l-debts-filters > *:last-child {
+  margin-right: 0;
+}
+
+/* -----end----- */
+
+/* layout списка заявок */
+
+.l-requests {
+  margin-bottom: 30px;
+}
+
+.l-requests-filter {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 10px;
+}
+
+.l-requests .request-card {
+  margin-bottom: 10px;
+}
+
+.l-two-cols-group-param .l-two-cols-col:last-child {
+  margin-bottom: 0;
+}
+
+.l-next-request .content-title-uppercase {
+  margin: 0 -30px;
+  padding: 40px 30px 10px;
+
+  background: #f3f3f3;
+}
+
+.l-next-request .request-card {
+  margin-bottom: 30px;
+}
+
+/* -----end----- */
+
+@media screen and (max-width: 1279px) {
+  .content-title-uppercase + .l-two-cols {
+    margin-top: 0;
+  }
+
+  .l-two-cols--btn .l-two-cols-col {
+    width: 100%;
+    max-width: 580px;
+  }
+
+  .l-two-cols--btn .l-two-cols-col:not(:first-of-type) {
+    margin-top: 20px;
+  }
+
+  .l-next-request {
+    overflow: hidden;
+  }
+
+  .l-next-request .content-title-uppercase {
+    margin: 0;
+    padding: 20px 30px;
+  }
+
+  /* основной контейнер колонок */
+
+  .l-main {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* end */
+
+  /* правая колонки с фильтрами */
+
+  .l-main-left {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+
+    display: none;
+    overflow: auto;
+
+    width: 100%;
+  }
+
+  /* end */
+
+  /* основная правая колонка */
+
+  .l-main-right {
+    width: 100%;
+    min-height: calc(100vh - 50px);
+  }
+
+  /* end */
+
+  /* блок сортировки сверху */
+
+  .l-main--nav-holder {
+    display: none;
+  }
+
+  .l-two-cols--modified.l-two-cols .l-two-cols-col {
+    position: relative;
+
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .l-requests .request-card {
+    margin-bottom: 0;
+  }
+
+  .l-debts-filters .btn--spinner-absolute {
+    /* display: none; */
+  }
+
+  .content-bg-gray .l-two-cols {
+    margin-top: 0;
+    margin-right: -30px;
+    margin-left: -30px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    background: #fff;
+  }
+
+  .content-bg-gray .l-two-cols-col {
+    display: flex;
+    align-items: flex-end;
+
+    width: 100%;
+  }
+
+  .l-main--nav-holder + .l-main {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .white-block__back {
+    display: none;
+  }
+
+  .l-main-right--stretch .c-filter {
+    max-width: 100%;
+    padding: 20px 15px;
+  }
+
+  .l-filter-line--two-col {
+    display: block;
+  }
+
+  .l-filter-line__col {
+    width: 100% !important;
+  }
+
+  .l-filter-line__col + .l-filter-line__col {
+    margin-top: 20px;
+  }
+
+  .l-two-cols-col {
+    width: 100%;
+  }
+
+  .l-two-cols--modified.l-two-cols .l-two-cols-col {
+    padding: 15px 0;
+  }
+
+  .l-debts-filters {
+
+    flex-wrap: wrap;
+
+    margin-left: 0;
+  }
+
+  .l-debts-filters .input-date-wrapper {
+    width: 50%;
+  }
+
+  .l-debts-filters > * {
+    margin-left: 0;
+  }
+
+  .l-next-request .content-title-uppercase {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .content-bg-gray .l-two-cols {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .content-bg-gray .l-two-cols-col {
+    flex-direction: column;
+  }
+
+  .l-two-cols--modified {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .l-three-cols-col {
+    width: 100%;
+  }
+
+  .l-three-cols-col:last-child {
+    margin-bottom: 0;
+  }
+
+  .l-requisites {
+    margin-top: -20px !important;
+    margin-bottom: -21px;
+  }
+
+  .l-requisites .l-two-cols-col {
+    margin: 0;
+    padding: 15px;
+
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  .l-two-cols .content-text-uppercase {
+    font-size: 0.75rem;
+  }
+
+  .l-next-request .request-card {
+    margin-bottom: 20px;
+  }
+
+  .l-debts-filters .btn--spinner-absolute {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .l-requisites .l-two-cols-col {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .l-requisites .content-text-medium {
+    text-align: right;
+
+    font-size: 1.875rem;
+    line-height: 1;
+  }
+}

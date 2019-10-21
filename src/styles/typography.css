@@ -1,0 +1,27 @@
+.text-red {
+  color: #f04e23 !important;
+}
+
+.text-gray {
+  color: #8a8a8f !important;
+}
+
+.text-green {
+  color: #7bbe00 !important;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-bold {
+  font-weight: 900 !important;
+}
+
+.text-medium {
+  font-weight: 500 !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

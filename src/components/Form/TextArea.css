@@ -1,0 +1,64 @@
+.text-area {
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+  padding: 10px 15px;
+
+  resize: none;
+
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  outline: none;
+  background: #fff;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 0.9375rem;
+  line-height: 20px;
+}
+
+.text-area:disabled {
+  cursor: not-allowed;
+
+  background-color: #f7f7f7;
+}
+
+.text-area::-webkit-input-placeholder {
+  color: #d7d7d7;
+}
+
+.text-area:-moz-placeholder {
+  color: #d7d7d7;
+}
+
+.text-area::-moz-placeholder {
+  color: #d7d7d7;
+}
+
+.text-area:-ms-input-placeholder {
+  color: #d7d7d7;
+}
+
+@media screen and (max-width: 1279px) {
+  .text-area {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text-area {
+    height: auto;
+
+    margin: 0 -15px;
+    padding: 5px 15px 10px;
+
+    border: none;
+
+    font-size: 0.9375rem;
+  }
+
+  .text-area:disabled {
+    background: none;
+  }
+}
+

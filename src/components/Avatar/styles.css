@@ -1,0 +1,25 @@
+.avatar {
+  position: relative;
+
+  display: inline-block;
+
+  width: 107px;
+  height: 107px;
+
+  background: #f3f3f3 url('../../images/avatar-default.svg') no-repeat center 30px;
+}
+
+.avatar img {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+
+  transition: opacity 0.2s ease-in;
+
+  opacity: 0;
+}
+
+.avatar.loaded img {
+  opacity: 1;
+}

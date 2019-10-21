@@ -1,0 +1,54 @@
+@media screen and (max-width: 1279px) {
+  .debts-filters {
+    padding-bottom: 0;
+  }
+
+  .debts-filters .form_input {
+    padding: 0;
+
+    border: none;
+    background-image: none;
+
+    font-size: 2.8125rem;
+    line-height: 1px;
+  }
+
+  .debts-filters .input-date-wrapper {
+    position: relative;
+  }
+
+  .debts-filters .input-date-wrapper:first-child::before {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+
+    width: 1px;
+    height: 50px;
+
+    content: '';
+
+    background-color: #e1e1e1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .debts-filters .form_input {
+    text-align: center;
+
+    font-size: 0.9375rem;
+  }
+
+  .debts-filters .input-date-wrapper:first-child::before {
+    bottom: 0;
+
+    height: 25px;
+  }
+}
+
+.c-call-action {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  background: #feffe3;
+}

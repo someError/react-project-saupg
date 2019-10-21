@@ -1,0 +1,79 @@
+.fade-enter {
+  animation-duration: 0.25s;
+  animation-play-state: paused;
+  animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+
+  opacity: 0;
+  animation-fill-mode: both;
+}
+
+.fade-appear {
+  animation-duration: 0.25s;
+  animation-play-state: paused;
+  animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+
+  opacity: 0;
+  animation-fill-mode: both;
+}
+
+.fade-leave {
+  animation-duration: 0.25s;
+  animation-play-state: paused;
+  animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+  animation-fill-mode: both;
+}
+
+.fade-enter.fade-enter-active {
+  animation-name: fadeIn;
+  animation-play-state: running;
+}
+
+.fade-appear.fade-appear-active {
+  animation-name: fadeIn;
+  animation-play-state: running;
+}
+
+.fade-leave.fade-leave-active {
+  animation-name: fadeOut;
+  animation-play-state: running;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

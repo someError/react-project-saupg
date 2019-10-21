@@ -1,0 +1,75 @@
+.main-bg {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+
+  background-image: radial-gradient(circle at 20% 22%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), radial-gradient(circle at 89% 85%, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0)), linear-gradient(#006caa, #006caa);
+}
+
+.main-center-content {
+  width: 430px;
+  margin: auto;
+}
+
+.main-logo {
+  margin-bottom: 60px;
+
+  text-align: center;
+}
+
+.main-wrapper-form {
+  overflow: hidden;
+
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+}
+
+.main-wrapper-form input {
+  width: 100%;
+}
+
+.auth-form {
+  padding: 30px;
+
+  background: #fff;
+}
+
+.auth-form__row {
+  margin-bottom: 20px;
+}
+
+.auth-form__btn {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1239px) {
+  .main-center-content {
+    width: 100%;
+    max-width: 580px;
+  }
+
+  .main-logo img {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-center-content {
+    max-width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .main-logo {
+    margin-bottom: 20px;
+  }
+
+  .main-logo img {
+    max-width: 186px;
+  }
+}

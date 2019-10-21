@@ -1,0 +1,27 @@
+.uploader-widget__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  width: 170px;
+  height: 130px;
+  margin-right: 17px;
+
+  cursor: pointer;
+
+  color: #979797;
+  border: 2px dashed #979797;
+
+  font-size: 80px;
+  line-height: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .uploader-widget__btn {
+    width: 80px;
+    height: 80px;
+
+    font-size: 50px;
+  }
+}

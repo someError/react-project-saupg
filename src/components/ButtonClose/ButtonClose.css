@@ -1,0 +1,19 @@
+.btn-close {
+  display: block;
+
+  width: 15px;
+  height: 15px;
+  padding: 0;
+
+  cursor: pointer;
+
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  stroke-width: 2px;
+}
+
+.btn-close svg {
+  width: 15px;
+  height: auto;
+}

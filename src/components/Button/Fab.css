@@ -1,0 +1,50 @@
+.fabs-container {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+
+  white-space: nowrap;
+}
+
+.fabs-container .fab-btn {
+  position: static;
+
+  margin-left: 20px;
+}
+
+.fab-btn {
+  right: 30px;
+  bottom: 30px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 101px;
+  height: 101px;
+
+  color: #fff;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background: #006daa;
+}
+
+.fab-btn .icon {
+  height: 33px;
+}
+
+.fab-btn__content {
+  line-height: 0;
+}
+
+@media screen and (max-width: 414px) {
+  .fab-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fab-btn .icon {
+    height: 17px;
+  }
+}

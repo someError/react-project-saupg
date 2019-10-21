@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'PF Agora Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('./fonts/agorasansproregular.eot');
+  src:
+    url('./fonts/agorasansproregular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/agorasansproregular.woff2') format('woff2'),
+    url('./fonts/agorasansproregular.woff') format('woff'),
+    url('./fonts/agorasansproregular.ttf') format('truetype'),
+    url('./fonts/agorasansproregular.svg#pf_agora_sans_proregular') format('svg');
+}
+
+@font-face {
+  font-family: 'PF Agora Sans Pro';
+  font-weight: 700;
+  font-style: normal;
+
+  src: url('./fonts/agorasansprobold.eot');
+  src:
+    url('./fonts/agorasansprobold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/agorasansprobold.woff2') format('woff2'),
+    url('./fonts/agorasansprobold.woff') format('woff'),
+    url('./fonts/agorasansprobold.ttf') format('truetype'),
+    url('./fonts/agorasansprobold.svg#pf_agora_sans_probold') format('svg');
+}
+
+@font-face {
+  font-family: 'PF Agora Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+
+  src: url('./fonts/pfagorasanspro-light-webfont.eot');
+  src:
+    url('./fonts/pfagorasanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/pfagorasanspro-light-webfont.woff2') format('woff2'),
+    url('./fonts/pfagorasanspro-light-webfont.woff') format('woff'),
+    url('./fonts/pfagorasanspro-light-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PF Agora Sans Pro';
+  font-weight: 500;
+  font-style: normal;
+
+  src: url('./fonts/agorasanspromedium.eot');
+  src:
+    url('./fonts/agorasanspromedium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/agorasanspromedium.woff2') format('woff2'),
+    url('./fonts/agorasanspromedium.woff') format('woff'),
+    url('./fonts/agorasanspromedium.ttf') format('truetype'),
+    url('./fonts/agorasanspromedium.svg#pf_agora_sans_promedium') format('svg');
+}
+
+@font-face {
+  font-family: 'PF Agora Sans Pro';
+  font-weight: 500;
+  font-style: italic;
+
+  src: url('./fonts/pfagorasanspro-mediumital-webfont.eot');
+  src:
+    url('./fonts/pfagorasanspro-mediumital-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/pfagorasanspro-mediumital-webfont.woff2') format('woff2'),
+    url('./fonts/pfagorasanspro-mediumital-webfont.woff') format('woff'),
+    url('./fonts/pfagorasanspro-mediumital-webfont.ttf') format('truetype');
+}
+
+/* assets/fonts/pfagorasanspro-mediumital-webfont.eot */
+
+@font-face {
+  font-family: 'PF Agora Sans Pro';
+  font-weight: 500;
+  font-style: normal;
+
+  src: url('./fonts/agorasanspromedium.eot');
+  src:
+    url('./fonts/agorasanspromedium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/agorasanspromedium.woff2') format('woff2'),
+    url('./fonts/agorasanspromedium.woff') format('woff'),
+    url('./fonts/agorasanspromedium.ttf') format('truetype'),
+    url('./fonts/agorasanspromedium.svg#pf_agora_sans_promedium') format('svg');
+}
+
+@font-face {
+  font-family: 'PF Agora Sans Pro';
+  font-weight: normal;
+  font-style: italic;
+
+  src: url('./fonts/pfagorasanspro-italic-1-webfont.eot');
+  src:
+    url('./fonts/pfagorasanspro-italic-1-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/pfagorasanspro-italic-1-webfont.woff2') format('woff2'),
+    url('./fonts/pfagorasanspro-italic-1-webfont.woff') format('woff'),
+    url('./fonts/pfagorasanspro-italic-1-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PF Agora Slab Pro';
+  font-weight: 300;
+  font-style: normal;
+
+  src: url('./fonts/pfagoraslabpro-light.eot');
+  src:
+    url('./fonts/pfagoraslabpro-light.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/pfagoraslabpro-light.woff2') format('woff2'),
+    url('./fonts/pfagoraslabpro-light.woff') format('woff'),
+    url('./fonts/pfagoraslabpro-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PF Agora Slab Pro';
+  font-weight: bold;
+  font-style: normal;
+
+  src: url('./fonts/pfagoraslabpro-bold.eot');
+  src:
+    url('./fonts/pfagoraslabpro-bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/pfagoraslabpro-bold.woff2') format('woff2'),
+    url('./fonts/pfagoraslabpro-bold.woff') format('woff'),
+    url('./fonts/pfagoraslabpro-bold.ttf') format('truetype'),
+    url('./fonts/pfagoraslabpro-bold.svg#pf_agora_slab_probold') format('svg');
+}
+
+@font-face {
+  font-family: 'PF Agora Slab Pro';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('./fonts/pfagoraslabpro-reg.eot');
+  src:
+    url('./fonts/pfagoraslabpro-reg.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/pfagoraslabpro-reg.woff2') format('woff2'),
+    url('./fonts/pfagoraslabpro-reg.woff') format('woff'),
+    url('./fonts/pfagoraslabpro-reg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HeliosC';
+  font-weight: 400;
+  font-style: normal;
+
+  src: url('./fonts/heliosc-webfont.eot');
+  src:
+    url('./fonts/heliosc-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/heliosc-webfont.woff2') format('woff2'),
+    url('./fonts/heliosc-webfont.woff') format('woff'),
+    url('./fonts/heliosc-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HeliosC';
+  font-weight: 300;
+  font-style: normal;
+
+  src: url('./fonts/helioslightc-webfont.eot');
+  src:
+    url('./fonts/helioslightc-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/helioslightc-webfont.woff2') format('woff2'),
+    url('./fonts/helioslightc-webfont.woff') format('woff'),
+    url('./fonts/helioslightc-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HeliosC';
+  font-weight: 700;
+  font-style: normal;
+
+  src: url('./fonts/heliosc-bold-webfont.eot');
+  src:
+    url('./fonts/heliosc-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/heliosc-bold-webfont.woff2') format('woff2'),
+    url('./fonts/heliosc-bold-webfont.woff') format('woff'),
+    url('./fonts/heliosc-bold-webfont.ttf') format('truetype');
+}

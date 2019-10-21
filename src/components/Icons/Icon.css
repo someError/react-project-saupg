@@ -1,0 +1,17 @@
+.icon {
+  display: inline-block;
+
+  height: 1rem;
+
+  color: inherit;
+
+  line-height: 0;
+}
+
+.icon svg {
+  height: 100%;
+}
+
+.icon * {
+  fill: currentColor;
+}

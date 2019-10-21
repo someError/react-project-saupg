@@ -1,0 +1,90 @@
+.table-debt-month {
+  padding-right: 30px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+
+  border-top: 1px solid #ececec;
+}
+
+.table-debt-month table {
+  border-collapse: collapse;
+
+  font-weight: normal;
+}
+
+.table-debt-month th {
+  padding: 10px 0;
+
+  text-align: left;
+  vertical-align: bottom;
+
+  color: #666;
+  border-bottom: 1px solid #ececec;
+
+  font-size: 0.9375rem;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.table-debt-month b {
+  font-weight: 500;
+}
+
+.table-debt-month td {
+  padding: 13px 0;
+
+  text-align: left;
+
+  color: #1e1e1e;
+
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.table-debt-month td:nth-child(1) {
+  width: 130px;
+}
+
+.table-debt-month td:nth-child(2) {
+  width: 130px;
+}
+
+.table-debt-month td:nth-child(3) {
+  width: 118px;
+}
+
+.table-debt-month td:nth-child(4) {
+  width: 135px;
+}
+
+.table-debt-month td:nth-child(5) {
+  width: 132px;
+}
+
+.table-debt-month td:nth-child(6) {
+  width: 95px;
+}
+
+.table-settings {
+  margin: 10px 0;
+  padding-right: 30px;
+
+  text-align: right;
+}
+
+.table-settings a {
+  text-decoration: none;
+
+  color: #00aee6;
+
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.table-settings svg {
+  width: 16px;
+  height: auto;
+  margin-right: 5px;
+
+  vertical-align: middle;
+}

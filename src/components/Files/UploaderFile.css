@@ -1,0 +1,138 @@
+.l-uploader-row label {
+  margin-bottom: 20px;
+}
+
+.media-item {
+  display: inline-block;
+
+  margin-right: 17px;
+  margin-bottom: 17px;
+
+  vertical-align: top;
+}
+
+.media-item img {
+  display: block;
+
+  height: 130px;
+}
+
+.uploader-image {
+  position: relative;
+}
+
+.uploader-image.uploader-image__failed::before {
+  position: absolute;
+
+  bottom: 0;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 10px;
+
+  content: attr(data-error);
+  text-align: center;
+
+  color: #fff;
+  background: #f04e23;
+
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.uploader-image__progress {
+  position: absolute;
+  z-index: 5;
+
+  display: flex;
+  align-items: center;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.uploader-image__remove {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  right: -10px;
+
+  width: 20px;
+  padding: 1px 0 0;
+
+  color: #fff;
+  border-radius: 50%;
+  outline: none;
+  background: #00aee6;
+
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.file-view {
+  position: relative;
+
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  box-sizing: border-box;
+  width: 170px;
+  height: 130px;
+
+  border: 1px solid #e8e8e8;
+  background: rgba(252, 252, 252, 0.9);
+}
+
+.file-view__ext {
+  position: absolute;
+  top: 18px;
+  left: 0;
+
+  box-sizing: border-box;
+  width: 48px;
+  padding: 7px 10px 5px;
+
+  text-transform: uppercase;
+
+  color: #fff;
+  background: #566d7f;
+
+  font-size: 0.9375rem;
+  line-height: 1;
+}
+
+.file-view__name {
+  padding: 0 10px 15px;
+}
+
+.file-view__ext[data-mime-type="application/pdf"] {
+  background: #f3553b;
+}
+
+.file-view__ext[data-mime-type="application/vnd.ms-excel"] {
+  background: #82be54;
+}
+
+.file-view__ext[data-mime-type="application/msword"] {
+  background: #4abdea;
+}
+
+.file-view__ext[data-mime-type="application/pdf"] {
+  background: #f3553b;
+}
+
+.file-view__ext[data-mime-type="application/zip"] {
+  background: #a164ac;
+}
+
+@media screen and (max-width: 767px) {
+  .media-item img {
+    height: 80px;
+  }
+}

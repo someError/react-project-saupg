@@ -1,0 +1,901 @@
+@import "~normalize.css";
+@import "./fonts.css";
+@import "./layout.css";
+@import "./pagination.css";
+@import "./typography.css";
+@import "aimations.css";
+
+html {
+  height: 100%;
+  min-height: 100%;
+
+  font-size: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100%;
+
+  background-color: #f3f3f3;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 100%;
+}
+
+body.overflow {
+  overflow: hidden;
+}
+
+#root {
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+/* TODO: понять, куда это определить */
+.content {
+  overflow: hidden;
+
+  padding: 20px 30px;
+
+  border-bottom: 1px solid #e1e1e1;
+
+  background: #fff;
+
+  font-weight: normal;
+}
+
+.content--gray {
+  border-bottom: none;
+
+  background: #f3f3f3;
+}
+
+.field-notify {
+  color: #bfbfbf;
+
+  font-size: 14px;
+  font-style: italic;
+}
+
+.content--orange {
+  background: rgba(251, 191, 52, 0.05);
+}
+
+.content--modified {
+  border-bottom: none;
+}
+
+.content-title {
+  margin-bottom: 20px;
+
+  color: #10496a;
+
+  font-family: 'PF Agora Slab Pro', sans-serif;
+  font-size: 2.1875rem;
+  font-weight: 300;
+  line-height: 42px;
+}
+
+.content-title--requests {
+  margin-bottom: 0;
+}
+
+.content-title--with-descr {
+  margin-bottom: 0;
+}
+
+.content-title--with-descr + .content-text-helper {
+  margin-bottom: 30px;
+
+  font-size: 0.9375rem;
+
+  line-height: 20px;
+}
+
+.content__text-item {
+  margin-bottom: 20px;
+}
+
+.content__text-item > *:first-of-type {
+  margin-bottom: 5px;
+}
+
+.content-title--inner {
+  margin-bottom: 0;
+}
+
+.content-title sup {
+  top: 0;
+
+  display: inline-block;
+
+  margin-top: -10px;
+  margin-left: 10px;
+
+  text-transform: uppercase;
+
+  color: #7bbe00;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.content-sub-title {
+  color: #1e1e1e;
+
+  font-size: 1.5625rem;
+
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.content-sub-title--red {
+  color: #f04e23;
+}
+
+.content-text-two-cols {
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+
+  color: #8d8d92;
+
+  font-size: 15px;
+
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.content-text-two-cols span {
+  margin-left: 30px;
+
+  color: #1e1e1e;
+
+  font-size: 20px;
+}
+
+.content-text-right {
+  text-align: right;
+}
+
+.content-text-right--margin {
+  margin-top: 20px;
+}
+
+.content-link-uppercase {
+  padding: 0;
+
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #00aee6;
+  border: none;
+  outline: none;
+  background: none;
+
+  font-size: 0.9375rem;
+
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.content-link-uppercase + .content-link-uppercase {
+  margin-left: 30px;
+}
+
+.content-text-uppercase {
+  margin-bottom: 5px;
+
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+
+  color: #979797;
+
+  font-size: 0.8125rem;
+
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.content-text-medium {
+  font-size: 1.25rem;
+
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.content-text-default {
+  margin-bottom: 20px;
+
+  color: #8a8a8f;
+
+  font-size: 0.9375rem;
+
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.content-text-small {
+  font-size: 0.9375rem;
+  line-height: 15px;
+}
+
+.content-default-wrapper {
+  overflow: hidden;
+
+  padding: 30px;
+
+  border-bottom: 1px solid #e1e1e1;
+
+  background: #fff;
+}
+
+.l-main-right--no-bg .content-default-wrapper {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content--officials {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  border-bottom: none;
+}
+
+.content-default-wrapper:last-child {
+  border-bottom: none !important;
+}
+
+.content-default-wrapper--modified {
+  padding-bottom: 40px;
+}
+
+.content-default-wrapper--inner {
+  padding-bottom: 10px;
+}
+
+.content-default-wrapper--last {
+  border: none;
+}
+
+.content-default-wrapper--lg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content-title-uppercase {
+  margin-bottom: 20px;
+
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+
+  color: #10496a;
+
+  font-size: 0.9375rem;
+
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.content-title-uppercase--inner {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.content-text-three-cols span {
+  position: relative;
+
+  display: inline-block;
+
+  padding-left: 20px;
+}
+
+.content-text-three-cols .check::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+
+  display: block;
+
+  width: 13px;
+  height: 10px;
+
+  content: '';
+
+  background: url(../images/icon-check.svg) no-repeat;
+}
+
+.content-text-center {
+  text-align: center;
+}
+
+.content-text-center--modified {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.content-text-check {
+  position: relative;
+
+  color: #8a8a8f;
+
+  font-size: 0.9375rem;
+
+  font-weight: normal;
+  font-style: italic;
+  line-height: 15px;
+}
+
+.content-text-check svg {
+  /* width: 13px; */
+
+  /* height: auto; */
+
+  /* margin-right: 10px; */
+  fill: #8a8a8f;
+}
+
+.content-text-helper {
+  color: #8a8a8f;
+
+  font-size: 1.25rem;
+
+  font-weight: normal;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.content-text-helper--small {
+  margin-top: -10px;
+
+  font-size: 0.9375rem;
+
+  line-height: 20px;
+}
+
+.content-bg-gray .content-title:last-child {
+  margin-bottom: 0 !important;
+}
+
+.account-inner-spinner {
+  margin: 150px auto 0;
+
+  text-align: center;
+}
+
+.metering-form {
+  position: relative;
+
+  overflow: visible;
+
+  border-bottom: 1px solid #e1e1e1;
+  background: #fffaef;
+}
+
+.metering-form__success {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background: #f9fcf2;
+}
+
+.metering-table-header {
+  padding-bottom: 11px;
+
+  border-bottom: 1px solid #ececec;
+}
+
+.metering-table-header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metering-table-header .content-title-uppercase {
+  margin-bottom: 0;
+}
+
+.metering-table-filters {
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.metering-table-filters a {
+  margin-left: 10px;
+
+  text-decoration: none;
+
+  color: #00aee6;
+}
+
+.metering-table-filters a.active {
+  color: inherit;
+}
+
+.metering-period-toggle {
+  cursor: pointer;
+}
+
+.metering-period-toggle.active {
+  cursor: default;
+}
+
+.portal-opened {
+  /* попробуем зафиксировать меню на мобиле */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+}
+
+.content-title-uppercase--single {
+  margin-bottom: 0 !important;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+@media screen and (max-width: 1279px) {
+  body.overflow--not-tablet {
+    overflow: visible;
+  }
+
+  .tablet-hidden {
+    display: none !important;
+  }
+
+  .content--orange {
+    background: #fff;
+  }
+
+  .content,
+  .content-default-wrapper {
+    padding: 20px 30px;
+  }
+
+  .content-default-wrapper .content-title-uppercase,
+  .content .content-title-uppercase,
+  .content:not(.content-bg-gray) .content-title,
+  .content-default-wrapper:not(.content-bg-gray) .content-title {
+    margin: -20px -30px 20px;
+    padding: 20px 30px;
+
+    background: #f3f3f3;
+  }
+
+  .content--officials .content-title-uppercase {
+    margin-top: 0;
+  }
+
+  .content-title-uppercase--single {
+    margin-bottom: -20px !important;
+  }
+
+  .content-default-wrapper--modified {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border-top: 30px solid #f3f3f3;
+    border-bottom: 30px solid #f3f3f3;
+  }
+
+  .content--transparent {
+    background: #f3f3f3;
+  }
+
+  .content-title-uppercase {
+    font-size: 1.5625rem;
+    line-height: 1;
+  }
+
+  .content-text-uppercase {
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+
+  .content-title {
+    text-transform: uppercase;
+
+    font-family: 'PF Agora Sans Pro', sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 25px;
+  }
+
+  /* заголовок наименование счетчика */
+  .content-title--modified {
+    color: #1e1e1e;
+
+    font-size: 2.1875rem;
+    line-height: 35px;
+  }
+
+  .content-sub-title {
+    position: relative;
+
+    font-size: 2.8125rem;
+    line-height: 50px;
+  }
+
+  /* content для заголовка на сером фоне */
+
+  .content-bg-gray {
+    border-bottom: none;
+    background: #f3f3f3;
+  }
+
+  .content-bg-gray .content-sub-title {
+    background: #fff;
+  }
+
+  .content-bg-gray-wrapper {
+    margin-right: -30px;
+    margin-left: -30px;
+    padding: 40px 30px;
+
+    background: #fff;
+  }
+
+  .content-bg-gray .content-title:last-child {
+    margin-bottom: 0;
+  }
+
+  .content-default-wrapper--inner {
+    padding-bottom: 0;
+  }
+
+  .content-bg-gray .content-title-uppercase {
+    margin-bottom: 10px;
+
+    letter-spacing: 0.7px;
+
+    font-size: 1.5625rem;
+    line-height: 25px;
+  }
+
+  .content-bg-gray .content-text-uppercase {
+    margin-right: auto;
+    margin-bottom: 0;
+
+    font-size: 1.25rem;
+    line-height: 25px;
+  }
+
+  /* тут глобально */
+  .content-text-medium {
+    margin-left: auto;
+
+    font-size: 1.875rem;
+    line-height: 30px;
+  }
+
+  .content-text-small {
+    font-size: 1.5625rem;
+    line-height: 35px;
+  }
+
+  .content__text-item {
+    margin-bottom: 25px;
+  }
+
+  /* бордер сверху в content ссылка uppercase справа  */
+  .content-bottom-border {
+    position: relative;
+
+    padding-top: 25px;
+  }
+
+  .content-bottom-border::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+
+    width: calc(100% + 60px);
+    height: 1px;
+
+    content: '';
+
+    background: #e1e1e1;
+  }
+
+  .content-link-uppercase {
+    letter-spacing: 0.7px;
+
+    font-size: 1.5625rem;
+  }
+
+  .metering-table-filters {
+    display: none;
+  }
+
+  .c-table-metering {
+    display: block;
+
+    width: auto !important;
+    margin-right: -30px;
+    margin-bottom: -20px;
+    margin-left: -30px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    background: #fff;
+  }
+
+  .metering-table-header {
+    padding-top: 20px;
+  }
+
+  .metering-form .btn--modified {
+    margin-bottom: 20px;
+  }
+
+  .metering-form {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border-bottom: none;
+    background: #fff;
+  }
+
+  .metering-form .content-text-center {
+    margin-right: -30px;
+    margin-left: -30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    background: #f3f3f3;
+  }
+
+  .metering-form .label {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .metering-form .form_input {
+    padding: 0;
+
+    border: none;
+    background-image: none;
+
+    font-size: 1.75rem;
+  }
+
+  .metering-form .l-two-cols {
+    margin-top: 0;
+
+    border-top: #e1e1e1;
+  }
+
+  .metering-form .l-two-cols-col {
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .metering-form .l-two-cols-col:first-child {
+    border-right: 1px solid #e1e1e1;
+  }
+
+  .content-title--with-descr {
+    margin-bottom: 30px;
+  }
+
+  .content-title--with-descr + .content-text-helper {
+    font-size: 1.5625rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding: 15px;
+  }
+
+  .content-title-uppercase,
+  .content-title {
+    font-size: 0.75rem;
+  }
+
+  .content-default-wrapper--modified {
+    border-width: 20px;
+  }
+
+  .content-default-wrapper {
+    padding: 20px 15px;
+  }
+
+  .content-title--modified {
+    font-size: 0.9375rem;
+    line-height: 15px;
+  }
+
+  .content-title--modified sup {
+    font-size: 0.75rem;
+  }
+
+  .content-title--modified {
+    margin-bottom: 15px;
+  }
+
+  .content-text-right--margin {
+    margin-top: 15px !important;
+  }
+
+  /* content для заголовка на сером фоне */
+  .content-bg-gray .content-title {
+    margin-bottom: 10px;
+
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 15px;
+  }
+
+  .content-bg-gray .content-sub-title {
+    font-size: 0.9375rem;
+    line-height: 15px;
+  }
+
+  .content-bg-gray-wrapper {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .content .content-title-uppercase {
+    margin: -15px -30px 15px;
+    padding: 15px 30px;
+  }
+
+  .content-bg-gray .content-title:last-child {
+    margin-bottom: 0;
+  }
+
+  .content-bg-gray .content-text-uppercase {
+    margin-bottom: 5px;
+
+    font-size: 0.75rem;
+    line-height: 12px;
+  }
+
+  .content-bg-gray .content-text-medium {
+    margin-right: auto;
+    margin-left: 0;
+
+    font-size: 0.9375rem;
+    line-height: 15px;
+  }
+
+  .content-bg-gray .content-title-uppercase {
+    font-size: 0.75rem;
+    line-height: 12px;
+  }
+
+  /* тут глобально */
+  .content-text-medium {
+    margin-left: auto;
+
+    font-size: 0.9375rem;
+    line-height: 15px;
+  }
+
+  .content-text-small {
+    font-size: 0.9375rem;
+    line-height: 15px;
+  }
+
+  .content__text-item {
+    margin-bottom: 15px;
+  }
+
+  /* бордер сверху в content ссылка uppercase справа  */
+  .content-bottom-border {
+    padding-top: 15px;
+  }
+
+  .content-bottom-border::before {
+    left: -15px;
+
+    width: calc(100% + 30px);
+  }
+
+  .content-link-uppercase {
+    letter-spacing: 0.5px;
+
+    font-size: 0.75rem;
+  }
+
+  .c-table-metering {
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .metering-table-header .content-title-uppercase {
+    margin-bottom: 0;
+  }
+
+  .metering-table-header {
+    padding-top: 0;
+  }
+
+  .metering-form {
+    padding: 0;
+  }
+
+  .metering-form .label {
+    letter-spacing: 0.5px;
+
+    font-size: 0.6rem;
+    line-height: 12px;
+  }
+
+  .metering-form .form_input {
+    font-size: 0.75rem;
+  }
+
+  .metering-form .l-two-cols {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .metering-form .btn--modified {
+    width: 100%;
+    max-width: 290px;
+  }
+
+  .metering-form .l-two-cols-col:first-child {
+    border-right: 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  .metering-form .l-two-cols-col {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .metering-form .l-two-cols {
+    margin-bottom: 0;
+  }
+
+  .metering-form .content-text-center {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .metering-form .content-text-center {
+    padding-top: 20px;
+  }
+
+  .content-title--with-descr {
+    margin-bottom: 20px;
+  }
+
+  .content-title--with-descr + .content-text-helper {
+    font-size: 0.9375rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .content--officials > .content-title-uppercase:first-of-type {
+    padding-top: 30px;
+  }
+}

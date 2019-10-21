@@ -1,0 +1,77 @@
+.table-debt-court {
+  padding-right: 30px;
+  padding-left: 30px;
+
+  border-top: 1px solid #ececec;
+}
+
+.table-debt-court table {
+  border-collapse: collapse;
+
+  font-weight: normal;
+}
+
+.table-debt-court th {
+  padding: 10px 0;
+
+  text-align: left;
+  vertical-align: bottom;
+
+  color: #666;
+  border-bottom: 1px solid #ececec;
+
+  font-size: 0.9375rem;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.table-debt-court b {
+  font-weight: 500;
+}
+
+.table-debt-court td {
+  padding: 15px 0;
+
+  text-align: left;
+
+  color: #1e1e1e;
+  border-bottom: 1px solid #ececec;
+
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.table-debt-court td:nth-child(1) {
+  width: 180px;
+}
+
+.table-debt-court td:nth-child(2) {
+  width: 170px;
+}
+
+.table-debt-court td:nth-child(3) {
+  width: 175px;
+}
+
+.table-debt-court td:nth-child(4) {
+  width: 190px;
+}
+
+.table-debt-court td:nth-child(5) {
+  width: 25px;
+}
+
+.table-debt-court-icon {
+  height: auto;
+}
+
+.table-debt-court-icon svg {
+  width: 16px;
+  height: auto;
+  fill: #979797;
+  stroke: #979797;
+}
+
+.table-debt-court tr:last-child td {
+  border-bottom: none;
+}

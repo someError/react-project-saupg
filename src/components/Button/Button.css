@@ -1,0 +1,82 @@
+.btn {
+  position: relative;
+
+  display: inline-block;
+
+  padding: 14px 25px 11px;
+
+  cursor: pointer;
+
+  transition: background-color 0.15s ease;
+  text-align: center;
+
+  color: #10496a;
+  border: none;
+  border-radius: 5px;
+  background-color: #fbbf34;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  line-height: 20px;
+}
+
+.btn--small {
+  padding: 10px;
+
+  font-size: 0.75rem;
+}
+
+.btn--modified {
+  width: 410px;
+  margin-bottom: 10px;
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+
+.btn-inner {
+  width: 350px;
+}
+
+.btn--fill {
+  width: 100%;
+}
+
+.btn--flat {
+  padding: 0;
+
+  line-height: 1;
+}
+
+.btn--transparent {
+  color: #00aee6;
+
+  background: transparent !important;
+}
+
+.btn--red {
+  color: #fff;
+
+  background: #f04e23;
+}
+
+.btn:disabled {
+  background-color: #f3f3f3;
+}
+
+.btn.btn--loading {
+  /* line-height: 0; */
+  position: relative;
+
+  color: transparent;
+}
+
+.btn--mute {
+  color: #8a8a8f;
+  background: #e1e1e1;
+}
+
+@media screen and (max-width: 767px) {
+  .btn--modified {
+    width: 100%;
+  }
+}

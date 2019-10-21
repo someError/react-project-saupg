@@ -1,0 +1,26 @@
+.table-filter {
+  margin-bottom: 10px;
+
+  text-align: right;
+}
+
+.table-filter .metering-table-filters {
+  display: block;
+}
+
+@media screen and (max-width: 1279px) {
+  .table-filter {
+    margin: -20px -30px 20px;
+    padding: 20px 30px;
+
+    text-align: right;
+
+    background: #f3f3f3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .table-filter {
+    margin-bottom: 0;
+  }
+}

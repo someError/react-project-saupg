@@ -1,0 +1,155 @@
+.input-wrap {
+  position: relative;
+}
+
+.form_input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 15px 9px;
+
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  outline: none;
+  background: #fff;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.form_input:disabled {
+  cursor: not-allowed;
+
+  background-color: #f7f7f7;
+}
+
+.form_input--inner {
+  width: 175px;
+}
+
+.form_input_auth {
+  padding: 8px 15px;
+
+  text-transform: uppercase;
+
+  color: #8a8a8f;
+  border: none;
+  border-radius: 0;
+  outline: none;
+
+  font-size: 0.8125rem;
+  line-height: 25px;
+}
+
+.form_input_auth:first-child {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.form_input_auth::-webkit-input-placeholder {
+  text-transform: uppercase;
+
+  opacity: 1;
+  color: #8a8a8f;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.form_input_auth::-moz-placeholder {
+  text-transform: uppercase;
+
+  opacity: 1;
+  color: #8a8a8f;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.form_input_auth::-moz-placeholder {
+  text-transform: uppercase;
+
+  opacity: 1;
+  color: #8a8a8f;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.form_input_auth:-ms-input-placeholder {
+  text-transform: uppercase;
+
+  opacity: 1;
+  color: #8a8a8f;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.form_input--modified {
+  color: #8a8a8f;
+}
+
+.form_input--error {
+  border-color: #f04e23;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+
+  height: 20px !important;
+
+  margin-top: -10px;
+}
+
+.form-input-wrap {
+  position: relative;
+}
+
+.form-input__icon {
+  position: absolute;
+
+  top: 50%;
+  right: 15px;
+
+  margin-top: -10px;
+
+  cursor: pointer;
+}
+
+.form-input__icon {
+  height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .form_input {
+    font-size: 0.9375rem;
+  }
+
+  .form-input-wrap {
+    margin: 0 -15px;
+    padding: 0 15px;
+
+    border-bottom: solid 1px #e1e1e1;
+  }
+
+  .form-input__icon {
+    top: -10px;
+    right: 20px;
+
+    margin: 0;
+  }
+
+  .form_input {
+    padding: 5px 0 10px;
+
+    border: none;
+  }
+
+  .form_input:disabled {
+    background: none;
+  }
+}
+

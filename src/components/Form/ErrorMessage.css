@@ -1,0 +1,13 @@
+.form-error-wrap {
+  position: relative;
+}
+
+.form-error {
+  margin-top: 10px;
+
+  color: #f04e23;
+
+  font-family: "PF Agora Sans Pro", serif;
+  font-size: 0.9375rem;
+  font-style: italic;
+}

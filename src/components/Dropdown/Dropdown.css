@@ -1,0 +1,84 @@
+.dropdown {
+  position: relative;
+
+  display: inline-block;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.dropdown-menu__wrapper {
+  position: relative;
+}
+
+.dropdown-menu__wrapper::before {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+
+  width: 14px;
+  height: 6px;
+  margin-left: -7px;
+
+  content: '';
+
+  background: url('../../images/icon-triangle.svg');
+}
+
+.dropdown-toggle {
+  margin-left: 10px;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  color: #00aee6;
+}
+
+.dropdown-toggle .icon {
+  vertical-align: middle;
+}
+
+.dropdown-toggle .icon--rotate {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 100;
+  top: 25px;
+  right: 0;
+
+  width: 170px;
+
+  /* display: none; */
+  text-align: left;
+
+  border: 1px solid #d9e0e4;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.dropdown-menu__item {
+  display: block;
+
+  padding: 10px 20px;
+
+  text-decoration: none;
+
+  color: #1e1e1e;
+  border-bottom: 1px solid #f3f3f3;
+
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.dropdown-menu__item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu__item.active {
+  color: #00aee6;
+}

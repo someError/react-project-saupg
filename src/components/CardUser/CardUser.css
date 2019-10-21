@@ -1,0 +1,350 @@
+.card-user {
+  padding: 20px 30px;
+
+  border-bottom: 1px solid #e1e1e1;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.card-user__top {
+  display: flex;
+}
+
+.card-user__info {
+  max-width: 460px;
+  margin-right: auto;
+}
+
+.card-user__info--stretch {
+  max-width: 100%;
+}
+
+.card-user__bottom {
+  width: 100%;
+  margin-top: 30px;
+
+  text-align: right;
+
+  font-size: 0.9375rem;
+}
+
+.card-user__photo {
+  overflow: hidden;
+
+  width: 107px;
+  height: 107px;
+  margin-left: auto;
+
+  border-radius: 50%;
+}
+
+.card-user__info-account {
+  margin-bottom: 2px;
+
+  text-transform: uppercase;
+
+  color: #8a8a8f;
+
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card-user__info-name {
+  display: inline-block;
+
+  margin-bottom: 5px;
+
+  vertical-align: middle;
+
+  color: #1e1e1e;
+
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.card-user__info-location {
+  margin-bottom: 10px;
+
+  color: #1e1e1e;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card-user__id {
+  display: inline-block;
+
+  margin: -5px 0 0 20px;
+
+  padding: 5px 10px;
+
+  vertical-align: middle;
+
+  color: #666;
+
+  background: #f3f3f3;
+
+  font-size: 0.9375rem;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.card-user__info-status {
+  color: #8a8a8f;
+
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.card-user__info-status .icon {
+  display: inline-block;
+
+  margin-top: -4px;
+  margin-left: 5px;
+
+  vertical-align: middle;
+}
+
+.card-user__link {
+  margin-left: 30px;
+  padding: 0;
+
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.52px;
+  text-transform: uppercase;
+
+  color: #00aee6;
+  border: none;
+
+  outline: none;
+
+  background: none;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+
+  font-size: 1rem;
+
+  line-height: 25px;
+}
+
+.card-user__link:disabled {
+  background: transparent;
+}
+
+.card-user__link .spinner {
+  left: 75%;
+}
+
+.card-user__input {
+  width: 110px;
+  padding: 15px;
+
+  text-align: center;
+
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.card-user__text {
+  margin-left: 30px;
+
+  color: #8a8a8f;
+}
+
+.card-user__input::-webkit-input-placeholder {
+  opacity: 1;
+  color: #bfbfbf;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.card-user__input:-moz-placeholder {
+  opacity: 1;
+  color: #bfbfbf;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.card-user__input::-moz-placeholder {
+  opacity: 1;
+  color: #bfbfbf;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.card-user__input:-ms-input-placeholder {
+  text-transform: uppercase;
+
+  opacity: 1;
+  color: #8a8a8f;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-user {
+    padding-bottom: 10px;
+  }
+
+  .card-user__bottom {
+    position: relative;
+
+    padding-top: 15px;
+  }
+
+  .card-user__info:not(.card-user__info--stretch) {
+    max-width: 575px;
+  }
+
+  .card-user__photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .card-user__photo .avatar {
+    width: 140px;
+    height: 140px;
+  }
+
+  .card-user__bottom::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+
+    width: calc(100% + 60px);
+    height: 1px;
+
+    content: '';
+
+    background: #e1e1e1;
+  }
+
+  .card-user__info-account {
+    margin-bottom: 15px;
+
+    font-size: 1.25rem;
+    line-height: 25px;
+  }
+
+  .card-user__info-name {
+    font-size: 2.8125rem;
+    line-height: 50px;
+  }
+
+  .card-user__info-location {
+    max-width: 100%;
+
+    font-size: 2.1875rem;
+    line-height: 35px;
+  }
+
+  .card-user__info-status {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .card-user__link {
+    font-size: 1.5625rem;
+    line-height: 35px;
+  }
+
+  /* контактные данные пользователя */
+  .card-user-contact .form_input {
+    padding: 0;
+
+    border: none;
+
+    font-size: 2.1875rem;
+  }
+
+  .card-user-contact {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-user {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+
+  .card-user__bottom::before {
+    position: absolute;
+    top: 0;
+    left: -15px;
+
+    width: calc(100% + 30px);
+    height: 1px;
+
+    content: '';
+
+    background: #e1e1e1;
+  }
+
+  .card-user__info {
+    max-width: 225px;
+  }
+
+  .card-user__info-account {
+    margin-bottom: 10px;
+
+    font-size: 0.9375rem;
+  }
+
+  .card-user__info-name {
+    display: block;
+
+    font-size: 1.25rem;
+    line-height: 22px;
+  }
+
+  .card-user__id {
+    margin: 0 0 5px;
+  }
+
+  .card-user__info-location {
+    font-size: 0.9375rem;
+    line-height: 20px;
+  }
+
+  .card-user__info-status {
+    font-size: 0.9375rem;
+    line-height: 15px;
+  }
+
+  .card-user__photo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-user__photo .avatar {
+    width: 50px;
+    height: 50px;
+
+    background-position: center 10px;
+    background-size: 50px;
+  }
+
+  .card-user__link {
+    font-size: 0.75rem;
+    line-height: 15px;
+  }
+
+  /* контактные данные пользователя */
+  .card-user-contact .form_input {
+    font-size: 0.9375rem;
+  }
+}

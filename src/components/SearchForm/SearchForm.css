@@ -1,0 +1,47 @@
+.found-total {
+  margin-top: 10px;
+
+  text-align: center;
+
+  color: #1e1e1e;
+
+  font-size: 0.9375rem;
+  line-height: 1.2;
+}
+
+.c-filter__switch {
+  display: flex;
+
+  margin-bottom: 30px;
+}
+
+.c-filter__switch a {
+  width: 50%;
+  padding: 10px 50px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #1e1e1e;
+  border: solid 1px #bfbfbf;
+  background: #e1e1e1;
+
+  font-size: 0.78125rem;
+  font-weight: 500;
+}
+
+.c-filter__switch a:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.c-filter__switch a:last-of-type {
+  border-left: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.c-filter__switch a.active {
+  color: #979797;
+  background: #fff;
+}

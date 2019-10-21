@@ -1,0 +1,7 @@
+.comment-form {
+  margin-bottom: 20px;
+}
+
+.comment-form * + button {
+  margin-top: 10px;
+}

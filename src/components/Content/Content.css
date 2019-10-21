@@ -1,0 +1,240 @@
+.content {
+  overflow: hidden;
+
+  box-sizing: border-box;
+  padding: 20px 30px;
+
+  border-bottom: 1px solid #e1e1e1;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.content--modified {
+  border-bottom: none;
+}
+
+.content-title {
+  margin-bottom: 20px;
+
+  color: #10496a;
+
+  font-family: 'PF Agora Slab Pro', sans-serif;
+  font-size: 2.1875rem;
+  font-weight: 300;
+  line-height: 42px;
+}
+
+.content-title--inner {
+  margin-bottom: 0;
+}
+
+.content-title sup {
+  top: 0;
+
+  display: inline-block;
+
+  margin-top: -10px;
+  margin-left: 5px;
+
+  text-transform: uppercase;
+
+  color: #7bbe00;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.content-sub-title {
+  color: #1e1e1e;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.content-sub-title--red {
+  color: #f04e23;
+}
+
+.content-text-two-cols {
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+
+  color: #8d8d92;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.content-text-two-cols span {
+  margin-left: 30px;
+
+  color: #1e1e1e;
+
+  font-size: 20px;
+}
+
+.content-text-right {
+  text-align: right;
+}
+
+.content-link-uppercase {
+  padding: 0;
+
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #00aee6;
+  border: none;
+  outline: none;
+  background: none;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.content-text-uppercase {
+  margin-bottom: 5px;
+
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+
+  color: #979797;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.content-text-medium {
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.content-text-default {
+  margin-bottom: 20px;
+
+  color: #8a8a8f;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.content-default-wrapper {
+  overflow: hidden;
+
+  box-sizing: border-box;
+  padding: 30px;
+
+  border-bottom: 1px solid #e1e1e1;
+  background: #fff;
+}
+
+.content-default-wrapper--modified {
+  padding-bottom: 40px;
+}
+
+.content-default-wrapper--inner {
+  padding-bottom: 10px;
+}
+
+.content-default-wrapper--last {
+  border: none;
+}
+
+.content-default-wrapper--lg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content-title-uppercase {
+  margin-bottom: 20px;
+
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+
+  color: #10496a;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.content-title-uppercase--inner {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.content-text-three-cols span {
+  position: relative;
+
+  display: inline-block;
+
+  padding-left: 20px;
+}
+
+.content-text-three-cols .check::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+
+  display: block;
+
+  width: 13px;
+  height: 10px;
+
+  content: '';
+
+  background: url(../../images/icon-check.svg) no-repeat;
+}
+
+.content-text-center {
+  text-align: center;
+}
+
+.content-text-center--modified {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.content-text-check {
+  position: relative;
+
+  color: #8a8a8f;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 15px;
+}
+
+.content-text-check svg {
+  width: 13px;
+  height: auto;
+  margin-right: 10px;
+  fill: #8a8a8f;
+}
+
+.content-text-helper {
+  color: #8a8a8f;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 30px;
+}

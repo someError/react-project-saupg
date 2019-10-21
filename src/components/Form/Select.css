@@ -1,0 +1,84 @@
+.select {
+  position: relative;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+
+  /* width: 370px; */
+  height: 46px;
+
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) 17px;
+}
+
+.select.disabled {
+  cursor: not-allowed;
+
+  background-color: #f7f7f7;
+}
+
+.select.disabled select {
+  cursor: not-allowed;
+}
+
+.select--modified {
+  width: 360px;
+}
+
+.select select {
+  width: 100%;
+  height: 46px;
+  padding: 0 65px 0 15px;
+
+  color: #000;
+  border: none;
+  outline: none;
+  background: transparent;
+
+  font-family: 'PF Agora Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none !important;
+}
+
+.select select::-ms-expand {
+  display: none;
+}
+
+.select span {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+}
+
+.select svg {
+  width: 15px;
+  height: auto;
+
+  color: #1e1e1e;
+  stroke: #1e1e1e;
+}
+
+@media screen and (max-width: 767px) {
+  .select {
+    height: 39px;
+    margin: 0 -15px;
+
+    border: none;
+    border-bottom: solid 1px #e1e1e1;
+    border-radius: 0;
+    background-position: calc(100% - 15px) 12px;
+  }
+
+  .select select {
+    height: 39px;
+
+    font-size: 0.9375rem;
+  }
+}

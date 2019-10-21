@@ -1,0 +1,25 @@
+.btn-back {
+  padding: 0;
+
+  cursor: pointer;
+  letter-spacing: 0.0346666em;
+  text-transform: uppercase;
+
+  color: #00aee6;
+  border: none;
+  background: none;
+
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.btn-back .icon {
+  width: 15px;
+  height: auto;
+  margin-right: 5px;
+
+  transform: rotate(90deg);
+  fill: #00aee6;
+  stroke: #00aee6;
+}

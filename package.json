@@ -1,0 +1,91 @@
+{
+  "name": "web-saupg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@stomp/stompjs": "^5.2.0",
+    "accounting": "^0.4.1",
+    "animejs": "^2.1.0",
+    "axios": "^0.16.2",
+    "classnames": "^2.2.5",
+    "es6-promise": "^4.1.1",
+    "is_js": "^0.9.0",
+    "libphonenumber": "0.0.10",
+    "libphonenumber-js": "^0.4.31",
+    "lodash": "^4.17.4",
+    "mitt": "^1.1.2",
+    "moment": "^2.18.1",
+    "normalize.css": "^7.0.0",
+    "numeral": "^2.0.6",
+    "plupload": "^2.3.3",
+    "prop-types": "^15.5.10",
+    "qs": "^6.5.1",
+    "rc-animate": "^2.4.1",
+    "react": "^16.0.0",
+    "react-autosuggest": "^9.3.2",
+    "react-day-picker": "^6.1.0",
+    "react-dom": "^16.0.0",
+    "react-image-magnify": "^1.8.0",
+    "react-image-zoom": "^0.6.1",
+    "react-js-pagination": "^2.2.0",
+    "react-modal": "^2.3.2",
+    "react-paginate": "^4.4.4",
+    "react-portal": "^3.1.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.0.13",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "sockjs-client": "^1.1.5",
+    "stompjs": "^2.3.3",
+    "store": "^2.0.12",
+    "url-search-params": "^0.10.0",
+    "webpack": "^3.6.0",
+    "ws": "^7.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "PUBLIC_URL=/front REACT_APP_ENV=production react-scripts build",
+    "build-dev": "REACT_APP_API='//10.4.151.52:8081' PUBLIC_URL='/front' REACT_APP_ENV=development react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o ./saupg-storybook",
+    "standard:lint": "./node_modules/.bin/eslint './src/**/*.js'",
+    "standard:fix": "./node_modules/.bin/eslint --fix './src/**/*.js'",
+    "stylelint:lint": "./node_modules/.bin/stylelint './src/**/*.css'",
+    "stylelint:fix": "./node_modules/.bin/stylelint --fix './src/**/*.css'",
+    "lint": "npm run stylelint:lint; npm run standard:lint",
+    "lint:fix": "npm run stylelint:fix; npm run standard:fix"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.8",
+    "eslint": "^4.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "size-limit": "^0.11.3",
+    "standard": "^12.0.1",
+    "stylelint": "^8.1.1",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-order": "^0.6.0"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://10.4.151.52:8081/",
+      "auth": "websaupg:RXayvTJWXppaX4",
+      "changeOrigin": true
+    }
+  },
+  "size-limit": [
+    {
+      "path": "./src/index.js",
+      "webpack": false
+    }
+  ]
+}

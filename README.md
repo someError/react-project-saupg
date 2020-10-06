@@ -1,8 +1,3 @@
-```
-Пароли:
-Сотрудник call-центра: call-center@websaupg.mosoblgaz.ru / VKcKPVkQzqn4
-Оператор САУПГ: operator@websaupg.mosoblgaz.ru / UeZn7FFJcdjs
-```
 
 ## Подготовка
 ```

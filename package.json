@@ -1,5 +1,5 @@
 {
-  "name": "web-saupg",
+  "name": "react-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,7 +47,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "PUBLIC_URL=/front REACT_APP_ENV=production react-scripts build",
-    "build-dev": "REACT_APP_API='//10.4.151.52:8081' PUBLIC_URL='/front' REACT_APP_ENV=development react-scripts build",
+    "build-dev": "REACT_APP_API='' PUBLIC_URL='/front' REACT_APP_ENV=development react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
@@ -77,8 +77,8 @@
   },
   "proxy": {
     "/api": {
-      "target": "http://10.4.151.52:8081/",
-      "auth": "websaupg:RXayvTJWXppaX4",
+      "target": "",
+      "auth": "",
       "changeOrigin": true
     }
   },
